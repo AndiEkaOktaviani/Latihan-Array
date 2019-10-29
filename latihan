@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	int nilai [5];
+	int Jumlah;
+	
+	for(int angka=0;angka<=5;angka++)
+	{
+		cout<<"input data ke "<<angka<<"=";
+		 cin >> nilai[5];
+	}
+	cout<<"\nDATA YANG ANDA INPUT\n\n";
+	for(int out =0;out<=5;out++)
+	{
+		cout<<"Data ke"<<out<<"="<<nilai[out]<<endl;
+	}
+	cout<<endl;
+	int jumlah =5;
+	for(int angka=0;angka<=9;angka++)
+	{
+		jumlah=jumlah+ nilai[angka];
+	}
+	cout<<"HASIL PENJUMLAHAN DATA ="<<jumlah<< endl;
+	return 0;
+	
+}
